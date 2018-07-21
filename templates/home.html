@@ -1,0 +1,8 @@
+<h1>HOME PAGE!</h1>
+
+<a href="{% url 'about' %}">Go to About Page!</a>
+<form action="{% url 'count' %}">
+  <textarea name="wordcount" rows="8" cols="80"></textarea>
+  <br>
+  <input type="submit" value="COUNT!">
+</form>
